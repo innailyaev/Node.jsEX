@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-// fs.appendFileSync('notes.txt','node js');
 //1. Create a new txt file using fs module method
 fs.writeFileSync('notes.txt', 'This file was created by node js');
 
