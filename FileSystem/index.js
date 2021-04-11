@@ -13,6 +13,7 @@ fs.renameSync('notes.txt','newNotes.txt');
 const folderName = '../FileSystem';
 fs.readdirSync(folderName).forEach(file => {
     console.log(file);
+    fs.appendFileSync('newNotes.txt', `${file}`);
   });
 
 //5. Find out and implement another method for the fs module.
