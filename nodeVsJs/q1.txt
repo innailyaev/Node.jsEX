@@ -1,0 +1,10 @@
+//Q1.
+//What are 3 things node.js has that the client-side javascript doesn’t have? And the reasons why
+// Nodejs is used in server-side development
+//Some of the Nodejs modules are Lodash, express etc. These modules are to be imported from npm
+
+//Q2.
+// What are 3 things the client side javascript has that node.js doesn’t have? And the reasons why
+// Javascript is capable enough to add HTML and play with the DOM and Nodejs does not have capability to add HTML tags, This is because node.js does not have the DOM.
+// JavaScript running in any engine because it's the client-side, node.js run only the V8 engine.
+// Javascript is used for any client side activity for the web application, for example refreshing the page in a specific interval.
