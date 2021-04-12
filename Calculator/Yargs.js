@@ -1,5 +1,4 @@
 const yargs = require('yargs');
-const calc = require("./calc.js");
 
 
 // add 
