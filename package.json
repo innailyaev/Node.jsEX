@@ -4,11 +4,12 @@
   "description": "node-course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.7",
     "validator": "^13.5.2",
     "yargs": "^16.2.0"
   }
