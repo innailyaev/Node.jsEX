@@ -12,7 +12,6 @@ const getBreeds = () => {
       
 }
   
-
   getBreeds();
 
     request({url:'https://dog.ceo/api/breeds/list/all', json:true}, function (error, response, body) {
